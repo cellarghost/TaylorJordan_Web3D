@@ -3,8 +3,8 @@ import Scene3D from "../scene/scene3D";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "3D Scene" },
+    { name: "description", content: "3D Scene" },
   ];
 }
 
