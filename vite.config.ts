@@ -5,5 +5,6 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
-  assetsInclude: ["**/*.html"]
+  assetsInclude: ["**/*.html"],
+  base: '/~tj227/IM/WEB3D/'
 });
