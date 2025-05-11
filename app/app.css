@@ -7,9 +7,58 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-white;
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+  /* @media (prefers-color-scheme: light) {
+    color-scheme: light;
+  } */
+}
+
+.nav_item {
+  @apply p-5 min-h-[30px] self-center hover:text-teal-500;
+}
+
+.nav_item:hover svg path {
+  fill: rgb(62, 146, 118);
+}
+
+.nav_item svg {
+  @apply  max-w-[30px] max-h-[30px];
+}
+
+.logo {
+  transition: all .2s;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+/* svg {
+  max-width: 5rem;
+  max-height: 5rem;
+} */
+
+svg path {
+  fill: rgb(0, 0, 0);
+}
+
+/* svg path:hover {
+  fill: rgb(74, 141, 99);
+} */
+
+h1 {
+  @apply text-4xl mt-[2rem] mb-[1rem] font-bold;
+}
+
+h2 {
+  @apply text-2xl mt-[1rem] mb-[0.5rem] font-bold;
+}
+
+h3 {
+  @apply text-xl mt-[1rem] mb-[0.5rem] font-bold;
+}
+
+code {
+  max-width: fit-content;
+  text-indent: 50px;
 }

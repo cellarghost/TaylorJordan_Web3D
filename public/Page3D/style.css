@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+button {
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: rgba(255, 198, 133, 0.76);
+    border-radius: 3rem;
+    color: rgb(83, 53, 29);
+    border-color: rgba(66, 42, 9, 0.662);
+    border-style: solid;
+    mix-blend-mode: difference;
+}
+
+button:active {
+    background-color: rgba(255, 228, 196, 0.416);
+}
+.canvasBtn {
+    position: absolute;
+    z-index: 12;
+}
+
+#playVinyl {
+    position: absolute;
+    width: 14rem;
+    height: 3rem;
+    font-size: x-large;
+}
